@@ -6,7 +6,7 @@ Conducted a staff retention analysis for the entire network that included all th
 
 **Goal and Purpose:**
 
-Met with cabinet level colleagues to conceive and plan a Tableau report that looked at staff retention rates for the 19-20 fiscal year.
+Discussed goals and direction with cabinet level colleagues to conceive and plan a Tableau report that looked at staff retention rates for the 19-20 fiscal year.
 
 **Methodology:**
 
