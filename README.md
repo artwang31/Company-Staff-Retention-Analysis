@@ -6,13 +6,15 @@ Conducted a staff retention analysis for the entire network that included all th
 
 **Goal and Purpose:**
 
+Met with cabinet level colleagues to conceive and plan a Tableau report that looked at staff retention rates for the 19-20 fiscal year.
 
 **Methodology:**
 
+Stakeholders wanted to
 
 **Final Report:**
 
-**The final report had two visualizations. The first one was a macro-level view that displays whether staff were willing or unwilling to return to the office, this was also broken down by job function and title.**
+**The final report had many visualizations. One of which was a macro-level view that displays staff retention for all companiesw within the network broken down by years of service, full-time/part-time employees, and self-identified demomgraphic information.**
 
 ![Visualization 1](.gif)
 
