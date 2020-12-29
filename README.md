@@ -6,7 +6,7 @@ Conducted a staff retention analysis for the entire network that included all th
 
 **Goal and Purpose:**
 
-Discussed goals and direction with cabinet level colleagues to conceive and plan a Tableau report that looked at staff retention rates for the 19-20 fiscal year.
+Discussed goals and direction with cabinet level colleagues to conceive and plan a Tableau report that looked at staff retention rates for the 19-20 fiscal year. The company wanted to see whether the various personal and professional implications of the COVID-19 pandemic had any significant correlations with staff retention. Level of detail in data granularity was also of importance as stakeholders preferred to see retention rates broken down by years of service, employment status, and demographic information.
 
 **Methodology:**
 
