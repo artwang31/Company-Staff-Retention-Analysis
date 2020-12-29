@@ -16,8 +16,8 @@ As I was the lead data scientist for this project, I decided to run a **point in
 
 **The final report had many visualizations. One of which was a macro-level view that displays staff retention for all companiesw within the network broken down by years of service, full-time/part-time employees, and self-identified demomgraphic information.**
 
-![Visualization 1](.gif)
+![Visualization 1](Retention-1.gif)
 
 **The second visualization displays the reasons why staff did not want to return to physical offices. This helped decision makers understand which issues staff were concerned with so they could decide which issues to address and how they would address them.**
 
-![Visualization 2](.gif)
+![Visualization 2](Retention-2.gif)
