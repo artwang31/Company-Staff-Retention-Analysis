@@ -8,9 +8,9 @@ SELECT DISTINCT A.EmployeeKey,
     CROSS JOIN [HRISStaged].[dbo].[EmployeeCorpGroup_Pivoted] C
     LEFT JOIN [HRISStaged].[dbo].[EmployeeStatus] D ON A.EmployeeKey = D.EmployeeKey
     WHERE D.StatusName = 'Active' AND
-          (A.JobTitle = 'Associate Regional Superintendent' OR
+          (A.JobTitle = 'Associate Director' OR
 	  A.JobTitle = 'Executive' OR
-          A.JobTitle = 'Regional Superintendent' OR
+          A.JobTitle = 'Regional Boss' OR
           A.JobTitle = 'Regional Director' OR
 	  A.EmployeeKey = '105893' OR
 	  A.EmployeeKey = 'EBMFH2N9Q'  OR
@@ -28,16 +28,16 @@ SELECT A.EmployeeKey,
     LEFT JOIN [HRISStaged].[dbo].[EmployeeCorpGroup_Pivoted] C ON A.EmployeeKey = C.EmployeeKey
     LEFT JOIN [HRISStaged].[dbo].[EmployeeStatus] D ON A.EmployeeKey = D.EmployeeKey
     WHERE D.StatusName = 'Active' AND
-          (A.JobTitle LIKE '%Principal%' OR
-          A.JobTitle LIKE '%Dean%' OR
-          A.JobTitle = 'Director of School Operations')
+          (A.JobTitle LIKE '%Director%' OR
+          A.JobTitle LIKE '%Associate%' OR
+          A.JobTitle = 'Director of Operations')
 UNION
 SELECT DISTINCT A.EmployeeKey,
 		A.JobTitle,
 		B.WinNT_ID as ADUserName,
 		--- Use Employee ID to add an exceptions school ---
 		--- User below as template - paste in new line below green line below ---
-		--- WHEN b.EmployeeID = '101747' THEN 'AF Amistad HS' ---
+		--- WHEN b.EmployeeID = '101747' THEN 'Company D' ---
 		CASE
                     WHEN B.EmployeeID = 'VV5KV1Q1E' THEN 'Company A'
                     --- Paste new exceptions here ---
