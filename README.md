@@ -1,6 +1,6 @@
 # Staff-Retention-Analysis
 
-**PERSONAL AND/OR UNIQUE IDENTIFIERS HAVE BEEN REMOVED FROM ALL SAMPLE DATA** 
+**PERSONAL AND/OR UNIQUE IDENTIFIERS HAVE BEEN REMOVED FROM ALL SAMPLE DATA**
 
 Conducted a staff retention analysis for the entire network that included all the companies, entities, and departments within the network.
 
